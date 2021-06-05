@@ -1,0 +1,52 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run -v
+
+## exception
+
+RPCError: getVM: (112) Service has disappeared
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 2.0.4, on Microsoft Windows [Version 10.0.18363.1440], locale en-IN)
+    • Flutter version 2.0.4 at C:\Users\deepi\Downloads\flutter_windows_2.0.4-stable\flutter
+    • Framework revision b1395592de (), 1970-01-01 05:30:00.000
+    • Engine revision 2dce47073a
+    • Dart version 2.12.2
+
+[!] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+    • Android SDK at C:\Users\deepi\AppData\Local\Android\sdk
+    • Platform android-30, build-tools 30.0.3
+    • Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    ✗ Could not determine java version
+
+[✗] Chrome - develop for the web (Cannot find Chrome executable at
+    .\Google\Chrome\Application\chrome.exe)
+    ! Cannot find Chrome. Try setting CHROME_EXECUTABLE to a Chrome executable.
+
+[!] Android Studio (version 4.1.0)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    ✗ Unable to determine bundled Java version.
+    • Try updating or re-installing Android Studio.
+
+[✓] VS Code (version 1.55.2)
+    • VS Code at C:\Users\deepi\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.21.0
+
+[✓] Connected device (2 available)
+    • motorola one fusion (mobile) • ZF6226TG2G • android-arm64  • Android 10 (API 29)
+    • Edge (web)                   • edge       • web-javascript • Microsoft Edge 89.0.774.76
+
+! Doctor found issues in 3 categories.
+```
