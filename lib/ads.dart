@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:native_admob_flutter/native_admob_flutter.dart';
 
 class AdsClass {
-  static const interstitialAdUnitId = "";
+  static const interstitialAdUnitId = "gfgsg";
   InterstitialAd interstitialAd;
   initializeInter() {
     interstitialAd = InterstitialAd();
